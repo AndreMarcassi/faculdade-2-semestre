@@ -1,0 +1,113 @@
+.div-butao{
+
+    width: 100%;
+    height: 25%;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.div-display{
+    width: 100%;
+    min-height: 70%;
+
+    border: 5px solid #4f5b93;
+    border-radius: 15px;
+}
+
+.lista{
+    font-size: medium;
+    color: #f5f5f5;
+    padding-top: 10px;
+}
+
+.div-55{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div-35{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div-55 .div-display{
+    height: auto;
+}
+
+.div-35 .div-display{
+    height: 85%;  
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.div-35 .div-display li{
+    margin: 2.5px 0 2.5px 0;
+}
+
+.div-35 .div-butao{
+    height: 10%;
+}
+
+.div-35 .div-display::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.butao-adm{
+    width: 30%;
+    height: 45px;
+    font-size: 15px;
+
+    background-color: #f5f5f5;
+
+    border: 4px solid #4f5b93;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.form-input{
+    width: 90%;
+    height: 35px;
+
+    margin: 10px;
+
+    border: 3px solid #4f5b93;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.form-file {
+    position: relative;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+}
+
+.form-file input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+
+.form-file-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    pointer-events: none;
+    box-sizing: border-box;
+}
